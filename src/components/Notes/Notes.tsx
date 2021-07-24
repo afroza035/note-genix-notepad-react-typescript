@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import Input from '../Input/Input';
+import Note from '../Note/Note';
 
 interface ITask {
   id: string,
