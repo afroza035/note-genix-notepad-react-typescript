@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import './App.css';
+import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import Notes from './components/Notes/Notes';
 
