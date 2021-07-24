@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import './App.css';
-import Contacts from './components/Contacts';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
