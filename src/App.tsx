@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 import Contacts from './components/Contacts';
 
 function App() {
   return (
-    <div className="App">
-      <Contacts></Contacts>
-    </div>
+    <Fragment>
+      <Navbar></Navbar>
+      <div className="container main-section">
+        <Notes />
+      </div>
+      <Footer></Footer>
+    </Fragment>
   );
 }
 
